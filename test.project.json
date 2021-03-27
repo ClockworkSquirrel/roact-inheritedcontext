@@ -1,0 +1,27 @@
+{
+  "name": "roact-inheritedcontext-test",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "InheritedContext": {
+        "$path": "src"
+      },
+      "Roact": {
+        "$path": "packages/Roact"
+      }
+    },
+    "TestService": {
+      "$className": "TestService",
+      "$properties": {
+        "ExecuteWithStudioRun": true
+      },
+      "TestEZ": {
+        "$path": "packages/TestEZ/src"
+      },
+      "TestRunner": {
+        "$path": "test/test-runner.server.lua"
+      }
+    }
+  }
+}
