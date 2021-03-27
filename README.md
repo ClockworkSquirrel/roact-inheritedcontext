@@ -15,3 +15,5 @@ Great for when you need to override parts of context, such as overriding a theme
 * [Download the model from GitHub releases][Latest Release]
 
 InheritedContext looks for Roact in the same directory as it. If you have installed Roact somewhere else, please create a reference module or update [Roact.lua](/src/Roact.lua) to point to the correct location.
+
+You will need to bring your own context; InheritedContext does not provide context by default, as this would only allow a single context to be used. Wrap your context with the Provider function to create an inherited Provider. Give your context as the first argument of `withContext` in order to pass it to your render function.

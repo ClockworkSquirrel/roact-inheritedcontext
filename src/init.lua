@@ -4,6 +4,4 @@ return {
 
     copyDeep = require(script.copyDeep),
     mergeDeep = require(script.mergeDeep),
-
-    Context = require(script.Context),
 }
